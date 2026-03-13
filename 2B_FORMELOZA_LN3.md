@@ -4,7 +4,7 @@ PART 1:
     An agent is an individual, autonomous entity that has its own variables and behaviors (reflexes). In this model, each student is an agent, it has its own attention, performance, and mobility values, and acts independently each cycle.
 
 2. Difference between global variables and species variables:
-    Global variables are declared inside the global {} block and are shared across the entire simulation. This means every agent and process can access and be affected by them at the same time. In this model, is_break and nb_students are global variables — when is_break changes, all students respond to it simultaneously.
+    Global variables are declared inside the global {} block and are shared across the entire simulation. This means every agent and process can access and be affected by them at the same time. In this model, is_break and nb_students are global variables, when is_break changes, all students respond to it simultaneously.
 
     Species variables, on the other hand, are declared inside the species {} block and are unique to each individual agent. Every student has their own separate copy of these variables, so one student's attention, performance, and mobility values are completely independent from another student's values. Two students can have very different attention levels at the same time because each one tracks and updates its own variable independently.
 
@@ -111,5 +111,6 @@ PART 7 — Critical Thinking Questions
 PART 8 — Advanced Extension: Option B — Teacher Agent
 
 ![alt text](image-11.png)
+
 
 ![alt text](image-12.png)
